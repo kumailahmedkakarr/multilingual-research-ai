@@ -1,0 +1,336 @@
+
+/* =========================================
+   RESEARCHMATE X OFFICIAL THEME
+========================================= */
+
+:root{
+
+    --navy:#04182D;
+    --dark:#071426;
+    --card:#0B2D52;
+
+    --cyan:#22D3EE;
+    --sky:#38BDF8;
+    --blue:#2563EB;
+
+    --white:#FFFFFF;
+    --silver:#CBD5E1;
+}
+
+/* =========================================
+   GLOBAL BACKGROUND
+========================================= */
+
+html,
+body{
+
+    margin:0;
+    padding:0;
+
+    background:#04182D;
+}
+
+.gradio-container{
+
+    background:linear-gradient(
+        135deg,
+        #04182D 0%,
+        #07213D 40%,
+        #0B2D52 75%,
+        #2563EB 100%
+    );
+
+    min-height:100vh;
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+#main_logo{
+
+    margin:auto !important;
+}
+
+#main_logo img{
+
+    width:175px !important;
+    height:175px !important;
+
+    object-fit:contain !important;
+
+    border-radius:50%;
+
+    box-shadow:
+        0 0 25px rgba(34,211,238,.25),
+        0 0 50px rgba(37,99,235,.20);
+}
+
+/* =========================================
+   DASHBOARD TITLE
+========================================= */
+
+.dashboard-header{
+
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:35px;
+}
+
+.dashboard-header h1{
+
+    font-size:72px;
+    font-weight:800;
+
+    color:white !important;
+
+    margin-bottom:10px;
+
+    text-shadow:
+        0 0 30px rgba(34,211,238,.25);
+}
+
+.dashboard-header p{
+
+    color:#CBD5E1 !important;
+
+    font-size:24px;
+}
+
+/* =========================================
+   CARDS
+========================================= */
+
+.card-btn{
+
+    height:100px !important;
+
+    border-radius:20px !important;
+
+    background:#071426 !important;
+
+    border:1px solid #22D3EE !important;
+
+    color:white !important;
+
+    font-size:18px !important;
+
+    font-weight:700 !important;
+
+    transition:.3s;
+}
+
+.card-btn:hover{
+
+    transform:translateY(-4px);
+
+    background:#0B2D52 !important;
+
+    border:1px solid #38BDF8 !important;
+
+    box-shadow:
+        0 0 25px rgba(34,211,238,.25);
+}
+
+/* =========================================
+   WORKSPACE PANEL
+========================================= */
+
+.workspace{
+
+    margin-top:25px;
+
+    padding:25px;
+
+    border-radius:22px;
+
+    background:linear-gradient(
+        135deg,
+        #071426,
+        #0B2D52
+    ) !important;
+
+    border:2px solid #22D3EE !important;
+
+    box-shadow:
+        0 0 25px rgba(34,211,238,.15);
+}
+
+/* =========================================
+   WORKSPACE TITLES
+========================================= */
+
+.workspace h1,
+.workspace h2,
+.workspace h3,
+.workspace h4{
+
+    color:rgb(46, 78, 218) !important;
+
+    font-weight:700;
+}
+
+/* =========================================
+   FILE UPLOAD AREA
+========================================= */
+
+.gr-file,
+.gr-file-upload,
+.gr-file-preview{
+
+    background:linear-gradient(
+        135deg,
+        #22D3EE,
+        #2563EB
+    ) !important;
+
+    border:2px solid white !important;
+
+    border-radius:20px !important;
+
+    color:white !important;
+}
+
+/* =========================================
+   INPUT FIELDS
+========================================= */
+
+input{
+
+    background:#04182D !important;
+
+    color:white !important;
+
+    border:2px solid #22D3EE !important;
+
+    border-radius:15px !important;
+}
+
+/* =========================================
+   TEXTBOXES
+========================================= */
+
+textarea{
+
+    background:#04182D !important;
+
+    color:white !important;
+
+    border:2px solid #22D3EE !important;
+
+    border-radius:18px !important;
+
+    padding:15px !important;
+
+    font-size:15px !important;
+}
+
+/* =========================================
+   TEXTBOX CONTAINER
+========================================= */
+
+.gr-textbox{
+
+    background:transparent !important;
+}
+
+/* =========================================
+   DROPDOWN
+========================================= */
+
+select{
+
+    background:#04182D !important;
+
+    color:white !important;
+
+    border:2px solid #22D3EE !important;
+
+    border-radius:15px !important;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+button{
+
+    border-radius:15px !important;
+
+    font-weight:700 !important;
+}
+
+.primary{
+
+    background:linear-gradient(
+        135deg,
+        #22D3EE,
+        #2563EB
+    ) !important;
+
+    border:none !important;
+
+    color:white !important;
+}
+
+/* =========================================
+   LABELS
+========================================= */
+
+label{
+
+    color:#22D3EE !important;
+
+    font-weight:700 !important;
+
+    font-size:15px !important;
+}
+
+/* =========================================
+   MARKDOWN
+========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    color:white !important;
+}
+
+p{
+
+    color:#CBD5E1 !important;
+}
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar{
+
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+
+    background:#04182D;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#22D3EE;
+
+    border-radius:20px;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer{
+
+    display:none !important;
+}

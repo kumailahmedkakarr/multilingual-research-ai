@@ -1,0 +1,12 @@
+gradio
+groq
+python-dotenv
+sentence-transformers
+faiss-cpu
+langdetect
+pymupdf
+python-docx
+pandas
+numpy
+plotly
+deep-translator
